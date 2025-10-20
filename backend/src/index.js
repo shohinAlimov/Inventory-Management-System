@@ -10,7 +10,6 @@ const app = express();
 app.use(
   cors({
     origin: "https://inventory-management-system-frontend-36wq.onrender.com",
-    credentials: true,
   })
 );
 app.use(express.json());
